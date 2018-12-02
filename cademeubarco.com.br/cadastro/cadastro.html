@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="cmb.jpg">
+  <title>Cadastrar Embarcação</title>
+  <meta name="description" content="Wireframe design of a checkout form by Pingendo">
+  <meta name="keywords" content="Pingendo bootstrap example template wireframe checkout form">
+  <meta name="author" content="Pingendo">
+  <!-- CSS dependencies -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+
+<body class="bg-light">
+  <div class="py-0">
+    <div class="row">
+      <div class="text-center col-md-7 mx-auto">
+        <img class="justify-content-center m-1 mx-5 mr-5 mb-0 mx-auto rounded" src="cmb.jpg" alt="" width="100" height="100">
+        <h2><b>Cadê meu Barco</b></h2>
+        <p class="lead">Atenção, para você cadastrar a sua embarcação, primeiro deve fazer&nbsp; o cadastro com seus dados.</p>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 order-md-1">
+          <h4 class="mb-3">Informações para o cadastro do barco.<br></h4>
+          <form class="needs-validation" novalidate="" style="">
+            <div class="row">
+              <div class="col-md-6 mb-3"> <label for="firstName">Primeiro Nome&nbsp;</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <div class="invalid-feedback"> Valid first name is required. </div>
+              </div>
+              <div class="col-md-6 mb-3"> <label for="lastName">Segundo Nome</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback"> Valid last name is required. </div>
+              </div>
+            </div>
+            <div class="mb-3"> <label for="username">Nome da Empresa</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="username" required="" placeholder="">
+                <div class="invalid-feedback" style="width: 100%;"> Your username is required. </div>
+              </div>
+            </div>
+            <div class="mb-3"> <label for="email">CNPJ da Empresa <span class="text-muted"></span></label>
+              <input type="email" class="form-control" id="email" placeholder="">
+              <div class="invalid-feedback"> </div>
+            </div>
+            <div class="mb-3"> <label for="address" contenteditable="true">Nome do Barco</label>
+              <input type="text" class="form-control" id="address" placeholder="" required="">
+              <div class="invalid-feedback" style=""> Please enter your shipping address. </div>
+            </div>
+            <div class="mb-3"> <label for="address" contenteditable="true">Data de saída</label>
+              <div class="form-group row">
+                <div class="col-10"><input type="date" class="form-control" id="address" placeholder="" required=""></div>
+              </div>
+              <div class="invalid-feedback" style=""> Please enter your shipping address. </div>
+            </div>
+            <div class="mb-3"> <label for="email">Preço da Passagem<span class="text-muted"></span></label>
+              <input type="text" class="form-control" id="email" placeholder="">
+              <div class="invalid-feedback"> </div>
+            </div>
+            <div class="mb-3"> <label for="email">Fotos do Barco<span class="text-muted"></span></label>
+              <input type="file" class="form-control-file" id="email" placeholder="opcional">
+              <div class="invalid-feedback"> </div>
+            </div>
+            <hr class="mb-0">
+            <hr class="mb-0">
+            <button class="btn btn-lg btn-block btn-success" type="submit" contenteditable="true">Cadastrar&nbsp;</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-3 text-muted text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 my-4">
+          <p class="mb-1">© 2017-2018 Company Name</p>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#">Privacy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="assets/js/validation.js"></script>
+  <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
+</body>
+
+</html>
